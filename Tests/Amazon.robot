@@ -16,3 +16,9 @@ User must sign in to check out
     [Tags]    smoke
     Open Browser    http://www.amazon.com    ${BROWSER}
     Close Browser
+
+User must sign again in to check out
+    [Documentation]    This is some basic info about the test
+    [Tags]    smoke
+    Open Browser    http://www.amazon.com    ${BROWSER}
+    Close Browser
